@@ -5,3 +5,4 @@
 | Day| Question | Link |
 | --------------- | --------------- | --------------- | 
 | 1. | Arranging Coins | [arrangecoins.py](./arrangecoins.py) |
+| 2. | Binary Tree Level Order Traversal II | [Binary_TreeTraversal.py](./Binary_TreeTraversal.py) |
