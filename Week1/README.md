@@ -6,3 +6,4 @@
 | --------------- | --------------- | --------------- | 
 | 1. | Arranging Coins | [arrangecoins.py](./arrangecoins.py) |
 | 2. | Binary Tree Level Order Traversal II | [Binary_TreeTraversal.py](./Binary_TreeTraversal.py) |
+| 3. | Prison cells After N Days | [prison_cells.py](./prison_cells.py) |
