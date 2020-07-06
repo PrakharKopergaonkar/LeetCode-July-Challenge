@@ -9,3 +9,4 @@
 | 3. | Prison cells After N Days | [prison_cells.py](./prison_cells.py) |
 | 4. | Ugly Numbers II | [ugly_numbers2.py](./ugly_numbers2.py) |
 | 5. | Hamming Distane | [Hamming_Distance.py](./Hamming_Distance.py) |
+| 6. | Plus One | [Plus_One.py](./Plus_One.py) |
