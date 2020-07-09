@@ -13,18 +13,24 @@ class Solution:
         queue = [[root,1,1]]
         while(len(queue)!=0):
             length = len(queue)
-            widths = []
+            min_width_curr = None
+            max_width_curr = None
             for i in range(0,length):
                 root1 = queue.pop(0)
                 if(root1[0].left!=None):
-                    widths.append(root1[2]*2)
+                    if(min_width_curr==None): 
+                        min_width_curr = root1[2]*2
+                    else:
+                        max_width_curr = root1[2]*2
                     queue.append([root1[0].left,root1[1]+1,root1[2]*2])
                 if(root1[0].right!=None):
-                    widths.append(root1[2]*2+1)
+                    if(min_width_curr==None): 
+                        min_width_curr = root1[2]*2+1
+                    else:
+                        max_width_curr = root1[2]*2+1
                     queue.append([root1[0].right,root1[1]+1,root1[2]*2+1])
             
-            if(len(widths)>1):
-                max_width = max(max_width,max(widths)-min(widths)+1)
+            if(min_width_curr!=None and max_width_curr!=None):
+                max_width = max(max_width,max_width_curr-min_width_curr+1)
         return(max_width)
             
-        
