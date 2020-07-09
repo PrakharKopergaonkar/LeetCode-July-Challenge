@@ -4,4 +4,5 @@
 
 | Day| Question | Link |
 | --------------- | --------------- | --------------- | 
-| 8. | 3sum | [3sum.py](./3sum.py) |
+| 8 | 3sum | [3sum.py](./3sum.py) |
+| 9 | Maximum Width of Binary Tree | [BinaryTree_width.py](./BinaryTree_width.py) |
