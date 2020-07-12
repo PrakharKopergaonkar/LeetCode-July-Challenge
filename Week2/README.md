@@ -8,3 +8,4 @@
 | 9 | Maximum Width of Binary Tree | [BinaryTree_width.py](./BinaryTree_width.py) |
 | 10 | Flatten a Multilevel Doubly Linked List | [Flatten_list.py](./Flatten_list.py) |
 | 11 | Subsets | [Subsets.py](./Subsets.py) |
+| 12 | Reverse Bits | [Reverse_bits.py](./Reverse_bits.py) |
