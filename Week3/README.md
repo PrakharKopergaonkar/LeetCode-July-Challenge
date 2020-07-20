@@ -8,6 +8,7 @@
 | 17 | Top K Frequent Elements | [K_frequent.py](./K_frequent.py) |
 | 18 | Course Schedule II | [Course_ScheduleII.py](./Course_ScheduleII.py) |
 | 19 | Add Binary  | [Binary_add.py](./Binary_add.py) |
+| 20 | Remove Linked list element  | [Remove_LinkedListElement.py](./Remove_LinkedListElement.py) |
 
 
 <h3> Notes regarding Question 18: Course Schedule II</h3>
