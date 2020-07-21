@@ -9,6 +9,7 @@
 | 18 | Course Schedule II | [Course_ScheduleII.py](./Course_ScheduleII.py) |
 | 19 | Add Binary  | [Binary_add.py](./Binary_add.py) |
 | 20 | Remove Linked list element  | [Remove_LinkedListElement.py](./Remove_LinkedListElement.py) |
+| 21 | Word Search  | [Word_search.py](./Word_search.py) |
 
 
 <h3> Notes regarding Question 18: Course Schedule II</h3>
