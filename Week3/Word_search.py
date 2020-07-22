@@ -15,8 +15,7 @@ class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         for i in range(0,len(board)):
             for j in range(0,len(board[0])):
-                if(board[i][j]==word[0]):
-                    if(self.dfs(board,word,i,j,1,[])):
-                        return True
+                if(board[i][j]==word[0] and self.dfs(board,word,i,j,1,[])):
+                    return True
         
         return False
